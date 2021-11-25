@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    overflow: hidden;
+    background: hsl(0,26%,96%);
+}
+.header{
+width: 100%;
+height: 100vh;
+position: relative;
+background: url(images/bg-pattern-intro.svg);
+background-position: center;
+background-size: 150%;
+padding: 4rem 10rem;
+border-bottom-left-radius: 6rem;
+background-repeat: no-repeat;
+background-color: hsl(353,100%,62%);
+}
+.header .nav{
+    display: flex;
+    align-items: center;
+}
+.header .nav .title_bar{
+    flex: 1;
+    margin-left: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+.header .nav .title_bar li{
+    margin-right: 1.5rem;
+    list-style: none;
+    position: relative;
+}
+.header .nav .title_bar li a{
+    text-decoration: none;
+    color: hsl(0,0%,100%);
+    cursor: pointer;
+    transition: 1.5s;
+    font-family: 'Ubuntu',sans-serif;
+}
+.header .nav .title_bar li a:hover{
+    text-decoration: underline;
+}
+.header .nav .title_bar li img{
+    margin-left: 0.5rem;
+    transition: 0.5s;
+}
+.header .nav .title_bar li:hover img{
+   transition: rotate(-180deg); 
+}
+.header .nav .title_bar li .dropdown_menu{
+    display: none;
+    transition: 0.5s;
+    z-index: 10;
+}
+.header .nav .title_bar li:hover .dropdown_menu{
+    display: block;
+}
+.header .nav .title_bar li .dropdown_menu ul{
+    position: absolute;
+    margin-top: 0.2rem;
+    margin-left: -0.2rem;
+    background: hsl(0,0%,100%);
+    padding: 1.5rem;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 3px rgba(0,0,0,0.4);
+}
+.header .nav .title_bar li .dropdown_menu ul li{
+    display: block;
+    margin-bottom: 1rem;
+}
+.header .nav .title_bar li .dropdown_menu ul li:last-child{
+    margin-bottom: 0;
+}
+.header .nav .title_bar li .dropdown_menu ul li a{
+    color: hsl(240,0%,56%);
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header .nav .title_bar li .dropdown_menu ul li a:hover{
+    color: hsl(0,0%,5%);
+}
+.header .nav .register{
+    display: flex;
+    align-items: center;
+}
+.header .nav .register li{
+    margin-left: 2rem;
+    list-style: none;
+}
+.header .nav .register li a{
+    text-decoration: none;
+    color: hsl(0,0%,100%);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9rem;
+    font-family: 'Ubuntu',sans-serif;
+}
+.header .nav .register li .singup{
+    padding: 0.8rem 2.5rem;
+    background:  hsl(0,0%,100%);
+    color:  hsl(356,100%,66%);
+    border-radius: 2rem;
+    border: none;
+    transition: .5s;
+}
+.header .nav .register li .singup:hover{
+    background-color: hsl(355,100%,74%);
+    color: hsl(0,0%,100%);
+}
+.header .nav .menu{
+    display: none;
+}
+.header .content-header{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.header .content-header h1{
+    font-size: 3.5rem;
+    color: hsl(0,0%,100%);
+    margin-bottom: 1rem;
+    font-family: 'Overpass',sans-serif;
+}
+.header .content-header p{
+    font-size: 1.2rem;
+    color: hsl(0,0%,100%);
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 400; 
+}
+.header .content-header .content-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .content-header .content-link li{
+    list-style: none;
+    margin-bottom: 0 0.5rem;
+    margin-left: 2rem;
+}
+.header .content-header .content-link li a{
+    text-decoration: none;
+    padding: .7rem 1.5rem ;
+    cursor: pointer;
+    font-size: .9rem;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+.header .content-header .content-link li .start{
+    background: hsl(0,0%,100%);
+    color: hsl(353,100%,62%);
+    border-radius: 2rem;
+    transition: .5s;
+}
+.header .content-header .content-link li .start:hover{
+    background:hsl(355,100%,74%);
+    color: hsl(0,0%,100%);
+}
+.header .content-header .content-link li .learn{
+    background: transition;
+    color: hsl(0,0%,100%);
+    border-radius: 2rem;
+    transition: .5s;
+    border: 1px solid hsl(0,0%,100%);
+}
+.header .content-header .content-link li .learn:hover{
+   background:hsl(0,0%,100%);
+    color: hsl(355,100%,74%);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

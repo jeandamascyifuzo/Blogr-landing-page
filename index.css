@@ -197,6 +197,81 @@ background-color: hsl(353,100%,62%);
 
 
 
+@media(max-width: 991px){
+    .header{
+        background: url(images/bg-pattern-intro.svg);
+        background-position: center;
+        background-size: 400%;
+        padding: 4rem 1.5rem;
+        background-color: hsl(353,100%,62%);
+    }
+    .header .nav{
+        justify-content: space-between;
+    }
+    .header .nav .title_bar{
+        display: none;
+    }
+    .header .nav .register{
+        display: none;
+    }
+    .header .content-header .content-link li .start{
+        padding: 1rem;
+        font-size: .8rem;
+        display: block;
+    }
+    .header .content-header .content-link li .learn{
+        padding: 1rem;
+        font-size: .8rem;
+        display: block;
+    }
+    .header .nav .menu{
+        display: block;
+    }
+    .header .content-header{
+        padding: 0 1.5rem;
+        margin-top: 2rem;
+    }
+    .header .content-header h1{
+        font-size: 2rem;
+    }
+    .header .content-header p{
+        margin-bottom: 2rem;
+    }
+    .header .content-header .content-link li a{
+        padding: 1.2rem 1.5rem;
+        font-size: 1rem;
+    }
+    .descript{
+        padding: 4rem 2rem 8rem;
+    }
+    .descript h2{
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+    .descript .decr-content{
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
